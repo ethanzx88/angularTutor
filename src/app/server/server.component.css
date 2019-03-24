@@ -1,0 +1,59 @@
+.jumbotron {
+    background-color: rgb(77, 177, 77)
+
+}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+}
+
+.big-container {
+    background-color: whitesmoke;
+    margin: 0 auto;
+    /* vertical-align: middle; */
+    /* top: 500px; */
+    width: 400px;
+    height: 350px;
+}
+
+.md-container {
+    margin: 0 auto;
+    margin-top: 55px;
+    width: 290px;
+    height: 200px; 
+      
+}
+
+.input {
+    background-color: rgb(214, 214, 214);
+    color: rgb(141, 141, 141);
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.login {
+    background-color: rgb(3, 151, 3);
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+
+
+
+/* todo:
+1. Add shadow -- done
+2. Add 2 sign up boxes -- done
+3. add username and password inside the sign up box -- done
+4. add login button
+5. Add the additional line of hint under the login button
+
+
+*/
+
