@@ -1,0 +1,63 @@
+
+.homepage-banner .container {
+  margin-top: auto;
+  display: flex;
+}
+
+.homepage-text {
+  font-family: "Open Sans",sans-serif;
+  font-weight: normal;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  flex-wrap: nowrap;
+
+  margin:0px;
+
+}
+
+.homepage-banner-title {
+  font-size: 32px;
+  display:flex;
+  flex-wrap: nowrap;
+
+
+}
+
+.homepage-banner {
+  width: 100%;
+  background-image: linear-gradient(150deg, rgb(35, 37, 128), rgb(146, 68, 156));
+}
+
+.flex-container {
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+}
+
+.empty {
+  width:120px;
+}
+
+.btn {
+  font-family: "Open Sans",sans-serif;
+  font-weight: normal;
+  letter-spacing: .01em;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 100px;
+  border: 1px solid #f0f0f0;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 120px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  position: relative;
+  transition: color .1s linear 0s,background-color .1s linear 0s,opacity .2s linear 0s !important;
+}
+
