@@ -5,29 +5,36 @@
 }
 
 .homepage-text {
-  font-family: "Open Sans",sans-serif;
+  font-family: "Helvetica Neue",sans-serif;
   font-weight: normal;
   color: white;
   display: flex;
   justify-content: center;
   flex-flow: column;
   flex-wrap: nowrap;
-
+  font-weight: 100;
   margin:0px;
 
 }
 
-.homepage-banner-title {
-  font-size: 32px;
+.homepage-banner-title  {
+  margin-top: -100px;
+  margin-bottom: 50px;
+  font-size: 40px;
   display:flex;
   flex-wrap: nowrap;
+  text-align: center;
+}
 
-
+.homepage-banner-subtitle {
+  margin-bottom: 50px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .homepage-banner {
   width: 100%;
-  background-image: linear-gradient(150deg, rgb(35, 37, 128), rgb(146, 68, 156));
+  background-image: linear-gradient(150deg, rgb(68, 70, 180), rgb(190, 98, 155));
 }
 
 .flex-container {
